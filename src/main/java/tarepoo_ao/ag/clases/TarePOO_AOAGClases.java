@@ -54,7 +54,7 @@ public class TarePOO_AOAGClases {
         auto.precio = 10000;
         auto.year = 2002;
         auto.owner = propietario;
-        auto.lol = matri;
+        auto.matricula = matri;
 
         var auto1 = new Auto();
         auto1.color = "Azul";
@@ -64,7 +64,7 @@ public class TarePOO_AOAGClases {
         auto1.precio = 45000;
         auto1.year = 2010;
         auto1.owner = propietario1;
-        auto1.lol = matri1;
+        auto1.matricula = matri1;
 
         var auto2 = new Auto();
         auto2.color = "Rojo";
@@ -74,7 +74,7 @@ public class TarePOO_AOAGClases {
         auto2.precio = 39000;
         auto2.year = 2008;
         auto2.owner = propietario2;
-        auto2.lol = matri2;
+        auto2.matricula = matri2;
 
         System.out.println("auto = " + auto.mostrarInfo());
         System.out.println("auto1 = " + auto1.mostrarInfo());

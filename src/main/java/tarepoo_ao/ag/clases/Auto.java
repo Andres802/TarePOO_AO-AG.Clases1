@@ -19,15 +19,15 @@ public class Auto {
     double precio;
     int cilindraje;
     Propietario owner;
-    LugarMatriculacion lol;
+    LugarMatriculacion matricula;
 
     public String mostrarInfo() {
 
         var retorno = "El auto tiene placa "
                 + this.placa + " es de marca " + this.marca + " y el propietario es: "
                 + owner.nombre + ", el auto cuesta " + this.precio + " USD y es modelo: " + this.year
-                + " El color es: " + this.color + " la direccion es:" + owner.direccion + ", la matricula se hace en la provincia de " + lol.provincia + " en la ciudad de "
-                + lol.ciudad + " la descripcion es " + lol.descripcion + " su numero de telefono para la matricula es" + lol.telefono;
+                + " El color es: " + this.color + " la direccion es:" + owner.direccion + ", la matricula se hace en la provincia de " + matricula.provincia + " en la ciudad de "
+                + matricula.ciudad + " la descripcion es " + matricula.descripcion + " su numero de telefono para la matricula es" + matricula.telefono;
 
         return retorno;
     }
