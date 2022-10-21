@@ -27,10 +27,11 @@ public class Auto {
                 + this.placa + " es de marca " + this.marca + " y el propietario es: "
                 + owner.nombre + ", el auto cuesta " + this.precio + " USD y es modelo: " + this.year
                 + " El color es: " + this.color + " la direccion es:" + owner.direccion + ", la matricula se hace en la provincia de " + lol.provincia + " en la ciudad de "
-                +lol.ciudad +" la descripcion es " + lol.descripcion + " su numero de telefono para la matricula es" + lol.telefono;
+                + lol.ciudad + " la descripcion es " + lol.descripcion + " su numero de telefono para la matricula es" + lol.telefono;
 
         return retorno;
     }
+
     public String getProvincia() {
 
         var retorno = "";
@@ -140,7 +141,7 @@ public class Auto {
         var retorno = 0.0d;
         var edad = this.calcularEdad(yearActual);
         retorno = edad * 0.1 * this.precio;
-        
+
         return retorno;
 
     }
@@ -227,9 +228,9 @@ public class Auto {
             var caracter4 = this.placa.charAt(3);
             var caracter5 = this.placa.charAt(4);
             var caracter6 = this.placa.charAt(5);
-            
+
             if (Character.isDigit(caracter6) && Character.isDigit(caracter5) && Character.isDigit(caracter4) && Character.isDigit(caracter3) && Character.isDigit(caracter2) && Character.isLetter(caracter1)) {
-                retorno= true;
+                retorno = true;
             }
 
         } else {
